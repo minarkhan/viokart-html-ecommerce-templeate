@@ -1,0 +1,120 @@
+.product-single {
+    border-radius: 10px;
+}
+
+.product-single img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    display: inline-block;
+    -o-object-fit: cover;
+    object-fit: cover;
+    padding: 15px;
+    border-radius: 25px;
+}
+a.product-hover {
+    color: black;
+}
+.card-product:hover {
+    -webkit-box-shadow: 0 4px 15px rgb(153 153 153 / 30%);
+    box-shadow: 0 4px 15px rgb(153 153 153 / 30%);
+    -webkit-transition: .1s;
+    transition: .1s;
+    border: 2px solid #6800D6 !important;
+}
+
+.single-category img {
+    margin: 10px;
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;
+}
+
+.single-category {
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;
+    background: white;
+}
+.single-category span {
+    font-size: 20px;
+    font-weight: 600;
+}
+.bg-unique-1 {
+    background:  #DEAD81;
+}.bg-unique-2 {
+    background:  #BB91E4;
+}.bg-unique-3 {
+    background:  #FF80BD;
+}.bg-unique-4 {
+    background:  #6DB3C2;
+}
+.single-category-img {
+    margin: 0;
+    border: none !important;
+    border-radius: 0px;
+}
+
+img.single-category-img {
+    margin-top: -16px;
+    margin-left: 15px;
+}
+.single-category.bg-unique-1.border-0.mb-4 {
+    color: #5d5d5d;
+}
+.brand-img {
+    width: 100%;
+    padding: 10px;
+}
+.footer-icon {
+    border-radius: 50%;
+    background: #ffffff00;
+    border: 1px solid white;
+    width: 45px;
+    height: 45px;
+    line-height: 32px;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.subscribe-form {
+    border: 1px solid white;
+    border-radius: 29px;
+}
+
+.subscribe-form input {
+    background: #ffffff00;
+    padding: 10px 30px;
+    border: none;
+}
+
+.subscribe-form button {
+    border-radius: 26px;
+    border: none;
+    padding: 5px 40px;
+    float: right;
+    margin: 5px;
+}
+
+section.footer-top.padding-top.row {
+    padding-top: 120px;
+}
+p.text-center.text-white-50 {
+    margin: 40px 0;
+}
+aside.col-sm-4.col-md-4.white h5 {
+    margin-bottom: 32px;
+}
+aside.col-sm-4.col-md-4.white {
+    line-height: 29px;
+}
+
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: block !important;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    bottom: 18px;
+    margin-left: 10px;
+    left: 50%;
+}
